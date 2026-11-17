@@ -1,0 +1,299 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Ready-Made Websites | MarkupHive</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/favicon.png">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body data-page="ready">
+
+    <!-- ========== HEADER ========== -->
+    <div id="header"></div>
+
+
+    <!-- ========== MAIN CONTENT ========== -->
+    <main class="container">
+
+        <!-- ========== PAGE INTRODUCTION ========== -->
+        <div class="page-head">
+
+            <span class="eyebrow">
+                OFFERS / READY-MADE
+            </span>
+
+            <h1>
+                Ready-Made <span class="accent">Websites</span>
+            </h1>
+
+            <p>
+                Browse website templates, filter by niche,
+                preview a live demo, and start a purchase inquiry.
+            </p>
+
+        </div>
+
+
+        <!-- ========== WEBSITE TEMPLATE CATALOG ========== -->
+        <section class="section" style="padding-top: 10px;">
+
+            <!-- Template Category Filters -->
+            <div
+                id="filters"
+                class="filters"
+            ></div>
+
+
+            <!-- Template Cards -->
+            <div
+                id="catalog"
+                class="catalog-grid"
+            ></div>
+
+
+            <!-- Purchase Notice -->
+            <p class="notice">
+                Prices, descriptions, and links are editable examples.
+                A purchase inquiry is not a completed payment
+                or confirmed order.
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <!-- ========== PURCHASE TEMPLATE MODAL ========== -->
+    <dialog
+        id="purchase-modal"
+        aria-labelledby="purchase-title"
+    >
+
+        <!-- Modal Header -->
+        <div class="modal-top">
+
+            <h2
+                id="purchase-title"
+                style="font: 800 23px Manrope;"
+            >
+                Purchase Template
+            </h2>
+
+            <button
+                id="close-modal"
+                class="close"
+                aria-label="Close dialog"
+            >
+                ✕
+            </button>
+
+        </div>
+
+
+        <!-- Selected Template Name and Price -->
+        <p
+            id="selected-template"
+            class="price"
+        ></p>
+
+
+        <!-- ========== STEP 1: CUSTOMER INFORMATION ========== -->
+        <div id="purchase-step">
+
+            <p class="muted" style="font-size: 13px;">
+                Fill in your details to generate an order summary.
+                You will copy and send it through Messenger.
+            </p>
+
+
+            <!-- Purchase Form -->
+            <form id="purchase-form">
+
+                <!-- Customer Name and Email -->
+                <div class="form-grid">
+
+                    <!-- Full Name -->
+                    <div class="field">
+
+                        <label for="buyer-name">
+                            Full Name *
+                        </label>
+
+                        <input
+                            id="buyer-name"
+                            name="name"
+                            required
+                            maxlength="100"
+                        >
+
+                    </div>
+
+
+                    <!-- Email Address -->
+                    <div class="field">
+
+                        <label for="buyer-email">
+                            Email Address *
+                        </label>
+
+                        <input
+                            id="buyer-email"
+                            name="email"
+                            type="email"
+                            required
+                            maxlength="150"
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <!-- Business / Brand Name -->
+                <div class="field">
+
+                    <label for="buyer-brand">
+                        Business / Brand Name (optional)
+                    </label>
+
+                    <input
+                        id="buyer-brand"
+                        name="brand"
+                        maxlength="120"
+                    >
+
+                </div>
+
+
+                <!-- Preferred Contact Method -->
+                <div class="field">
+
+                    <label for="buyer-contact">
+                        Preferred Contact Method
+                    </label>
+
+                    <select
+                        id="buyer-contact"
+                        name="contact"
+                    >
+                        <option>Messenger</option>
+                        <option>Email</option>
+                    </select>
+
+                </div>
+
+
+                <!-- Customization Notes -->
+                <div class="field">
+
+                    <label for="buyer-notes">
+                        Customization Notes (optional)
+                    </label>
+
+                    <textarea
+                        id="buyer-notes"
+                        name="notes"
+                        rows="3"
+                        maxlength="1200"
+                        placeholder="Brand colors, logo, content, etc."
+                    ></textarea>
+
+                </div>
+
+
+                <!-- Generate Summary Button -->
+                <button
+                    class="btn"
+                    type="submit"
+                >
+                    Generate Order Summary →
+                </button>
+
+            </form>
+
+        </div>
+
+
+        <!-- ========== STEP 2: ORDER SUMMARY ========== -->
+        <div
+            id="summary-step"
+            class="hidden"
+        >
+
+            <!-- Instructions -->
+            <p class="muted" style="font-size: 13px;">
+                Copy your order, then open Messenger and
+                paste it into the chat. The message is
+                not sent automatically.
+            </p>
+
+
+            <!-- Generated Order Summary -->
+            <div
+                id="order-summary"
+                class="summary"
+            ></div>
+
+
+            <!-- Order Actions -->
+            <div class="actions">
+
+                <!-- Copy Order -->
+                <button
+                    class="btn"
+                    id="copy-order"
+                >
+                    Copy Order
+                </button>
+
+
+                <!-- Open Messenger -->
+                <a
+                    id="messenger-order"
+                    class="btn btn-outline"
+                    href="#"
+                    target="_blank"
+                    rel="noopener"
+                >
+                    Send to Messenger ↗
+                </a>
+
+
+                <!-- Edit Customer Details -->
+                <button
+                    id="edit-order"
+                    class="btn btn-outline"
+                >
+                    Edit Details
+                </button>
+
+            </div>
+
+        </div>
+
+    </dialog>
+
+
+    <!-- ========== FOOTER ========== -->
+    <div id="footer"></div>
+
+
+    <!-- ========== JAVASCRIPT ========== -->
+
+    <!-- Website Data -->
+    <script src="js/data.js"></script>
+
+    <!-- Main Website Functionality -->
+    <script src="js/main.js"></script>
+
+</body>
+</html>
