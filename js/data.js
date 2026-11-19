@@ -122,7 +122,7 @@ window.MH_TEMPLATES = [
         id: 't1',
         name: 'Food Shop Site w/ Add To Cart Functionality',
         category: 'Restaurant',
-        price: 6999,
+        price: 5499,
 
         description: 'Made for shop owners with Messenger ordering and cart catalogs.',
 
