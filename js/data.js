@@ -164,7 +164,7 @@ window.MH_TEMPLATES = [
         id: 't4',
         name: 'Clothing Website With Add-To-Cart Functionality',
         category: 'Clothing',
-        price: 5,499,
+        price: 5499,
 
         description: 'A website made with add-tocart-functionality for clothing lines.',
 
