@@ -150,7 +150,7 @@ window.MH_TEMPLATES = [
         id: 't3',
         name: 'Simple Business Landing Page',
         category: 'Landing Page',
-        price: 2599,
+        price: 2499,
 
         description: 'A simple business landing page.',
 
