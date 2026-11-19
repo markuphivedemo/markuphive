@@ -169,7 +169,7 @@ window.MH_TEMPLATES = [
         description: 'A website made with add-tocart-functionality for clothing lines.',
 
         image: 'assets/clothing(1).png',
-        url: ''
+        url: 'https://markuphivedemo.github.io/clothing-1-/'
     },
 
 
