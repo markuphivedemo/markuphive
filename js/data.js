@@ -136,7 +136,7 @@ window.MH_TEMPLATES = [
         id: 't2',
         name: 'Personal Portfolio',
         category: 'Portfolio',
-        price: 3799,
+        price: 2499,
 
         description: 'A clean personal portfolio for creatives.',
 
@@ -150,7 +150,7 @@ window.MH_TEMPLATES = [
         id: 't3',
         name: 'Simple Business Landing Page',
         category: 'Landing Page',
-        price: 3799,
+        price: 2499,
 
         description: 'A simple business landing page.',
 
