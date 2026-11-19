@@ -159,16 +159,16 @@ window.MH_TEMPLATES = [
     },
 
 
-    // Template 4 — Bistro Menu
+    // Template 4 — Clothing Website
     {
         id: 't4',
-        name: 'Blank Catalog',
-        category: '',
-        price: 0.00,
+        name: 'Clothing Website With Add-To-Cart Functionality',
+        category: 'Clothing',
+        price: 5,499,
 
-        description: '',
+        description: 'A website made with add-tocart-functionality for clothing lines.',
 
-        image: 'assets/project-restaurant.svg',
+        image: 'assets/clothing(1).png',
         url: ''
     },
 
