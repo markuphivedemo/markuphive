@@ -177,7 +177,7 @@ window.MH_TEMPLATES = [
     {
         id: 't5',
          name: 'Staycation Business Site',
-        category: '',
+        category: 'Accommodation',
         price: 2999,
 
         description: 'Website made for businesses offering short-term accommodations.',
