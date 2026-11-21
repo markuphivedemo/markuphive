@@ -176,14 +176,14 @@ window.MH_TEMPLATES = [
     // Template 5 — Petal Boutique
     {
         id: 't5',
-         name: 'Blank Catalog',
+         name: 'Staycation Business Site',
         category: '',
-        price: 0.00,
+        price: 2999,
 
-        description: '',
+        description: 'Website made for businesses offering short-term accommodations.',
 
-        image: 'assets/project-restaurant.svg',
-        url: ''
+        image: 'assets/staycation(1).png',
+        url: 'https://markuphivedemo.github.io/staycation-1-/'
     },
 
 
