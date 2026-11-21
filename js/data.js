@@ -190,14 +190,14 @@ window.MH_TEMPLATES = [
     // Template 6 — Personal Pages
     {
         id: 't6',
-        name: 'Blank Catalog',
-        category: '',
-        price: 0.00,
+        name: 'Staycation Business Site',
+        category: 'Accommodation',
+        price: 2999,
 
-        description: '',
+        description: 'Website made for businesses offering short-term accommodations.',
 
-        image: 'assets/project-restaurant.svg',
-        url: ''
+        image: 'assets/staycation(2).png',
+        url: 'https://markuphivedemo.github.io/staycation-2-/'
     }
 
 ];
